@@ -6,6 +6,8 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
+import java.time.Instant;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
@@ -18,6 +20,12 @@ import javax.persistence.Table;
 @Table(name = "vente")
 public class Ventes extends AbstractEntity {
 
-    //FIXME
+    @Column(name = "code")
     private  String code;
+
+    @Column(name = "datevente")
+    private  Instant dateVente;
+
+    @Column(name = "commentaire")
+    private  String commentaire;
 }

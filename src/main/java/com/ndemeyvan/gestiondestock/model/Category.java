@@ -2,6 +2,7 @@ package com.ndemeyvan.gestiondestock.model;
 
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
@@ -16,6 +17,7 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
+@Builder
 @EqualsAndHashCode(callSuper = true)
 @Table(name = "category")
 public class Category extends AbstractEntity {

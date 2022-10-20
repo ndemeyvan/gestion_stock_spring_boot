@@ -2,6 +2,7 @@ package com.ndemeyvan.gestiondestock.model;
 
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
@@ -13,6 +14,7 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
+@Builder
 @EqualsAndHashCode(callSuper = true)
 @Table(name = "lignevente")
 public class LigneVente extends AbstractEntity {
@@ -24,6 +26,10 @@ public class LigneVente extends AbstractEntity {
 
     @Column(name = "quantite")
     private BigDecimal quantite;
+
+    @Column(name = "prixunitaire")
+    private BigDecimal prixUnitaire;
+    
 
 
 

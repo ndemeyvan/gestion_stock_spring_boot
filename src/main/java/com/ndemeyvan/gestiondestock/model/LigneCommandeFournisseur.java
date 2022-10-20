@@ -2,6 +2,7 @@ package com.ndemeyvan.gestiondestock.model;
 
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
@@ -15,6 +16,7 @@ import javax.persistence.Table;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
+@Builder
 @EqualsAndHashCode(callSuper = true)
 @Table(name = "lignecommandefournisseur")
 public class LigneCommandeFournisseur extends AbstractEntity {

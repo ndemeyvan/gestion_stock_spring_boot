@@ -2,13 +2,15 @@ package com.ndemeyvan.gestiondestock.model;
 
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
+import java.io.Serializable;
+
 import javax.persistence.Column;
 import javax.persistence.Embeddable;
-import javax.persistence.Entity;
 import javax.persistence.Table;
 
 @Data
@@ -16,8 +18,9 @@ import javax.persistence.Table;
 @NoArgsConstructor
 @EqualsAndHashCode
 @Embeddable
+@Builder
 @Table(name = "adresse")
-public class Adresse {
+public class Adresse implements Serializable {
 
     @Column(name = "adresse1")
     private String adresse1;

@@ -23,7 +23,7 @@ public class UtilisateurDto {
 
     private String photo;
 
-    private EntrepriseDto entreprise;
+    private EntrepriseDto entrepriseDto;
 
-    private List<RoleDto> Role;
+    private List<RoleDto> roleDtos;
 }

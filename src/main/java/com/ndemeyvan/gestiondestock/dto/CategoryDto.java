@@ -13,6 +13,6 @@ public class CategoryDto {
 
     private String designation;
 
-    private List<ArticleDto> article;
+    private List<ArticleDto> articleDtos;
     
 }

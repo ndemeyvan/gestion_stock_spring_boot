@@ -11,6 +11,6 @@ public class EntrepriseDto {
     
     private String nom;
 
-    private List<UtilisateurDto> utilisateur;
+    private List<UtilisateurDto> utilisateurDtos;
 
 }

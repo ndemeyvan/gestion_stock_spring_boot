@@ -13,10 +13,9 @@ import lombok.Data;
 @Data
 public class MvtStkDto {
 
-    private ArticleDto article;
+    private ArticleDto articleDto;
 
     private Instant dateMvnt;
-
 
     private BigDecimal quantite;
 

@@ -16,5 +16,5 @@ public class CommandeClientDto {
 
     private ClientDto client;
 
-    private List<LigneCommandeClientDto> commandeClient;
+    private List<LigneCommandeClientDto> commandeClientDtos;
 }

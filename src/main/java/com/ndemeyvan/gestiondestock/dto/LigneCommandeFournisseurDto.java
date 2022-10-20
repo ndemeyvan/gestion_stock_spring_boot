@@ -8,7 +8,7 @@ import lombok.Data;
 @Data
 public class LigneCommandeFournisseurDto {
     
-    private CommandeFournisseurDto commandeFournisseur;
+    private CommandeFournisseurDto commandeFournisseurDto;
 
     private ArticleDto article;
 

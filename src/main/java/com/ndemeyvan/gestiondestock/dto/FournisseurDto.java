@@ -22,6 +22,6 @@ public class FournisseurDto {
 
     private String numeroTelephone;
 
-    private List<CommandeFournisseurDto> commandeFournisseurs;
+    private List<CommandeFournisseurDto> commandeFournisseursDtos;
 
 }

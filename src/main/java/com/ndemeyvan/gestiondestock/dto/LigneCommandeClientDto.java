@@ -9,6 +9,6 @@ public class LigneCommandeClientDto {
     
     private ArticleDto article;
     
-    private CommandeClientDto commandeClient;
+    private CommandeClientDto commandeClientDto;
 
 }

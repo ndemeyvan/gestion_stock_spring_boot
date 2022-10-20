@@ -7,7 +7,7 @@ import lombok.Data;
 @Data
 public class RoleDto {
 
-    private UtilisateurDto utilisateur;
+    private UtilisateurDto utilisateurDto;
 
     private String roleName;
 }

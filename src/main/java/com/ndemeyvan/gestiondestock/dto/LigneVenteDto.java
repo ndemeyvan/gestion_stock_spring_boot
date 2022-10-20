@@ -9,7 +9,7 @@ import lombok.Data;
 @Data
 public class LigneVenteDto {
     
-    private  VentesDto ventes;
+    private  VentesDto ventesDto;
 
     private BigDecimal quantite;
 

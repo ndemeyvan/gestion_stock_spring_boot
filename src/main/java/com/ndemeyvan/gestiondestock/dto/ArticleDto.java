@@ -21,6 +21,6 @@ public class ArticleDto {
 
     private String photo;
 
-    private CategoryDto category;
+    private CategoryDto categoryDto;
 
 }

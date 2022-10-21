@@ -11,7 +11,6 @@ import javax.persistence.*;
 import java.time.Instant;
 import java.util.List;
 
-@Builder
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

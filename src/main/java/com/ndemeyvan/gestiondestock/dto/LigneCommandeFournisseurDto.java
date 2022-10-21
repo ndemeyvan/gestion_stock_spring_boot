@@ -7,6 +7,8 @@ import lombok.Data;
 @Builder
 @Data
 public class LigneCommandeFournisseurDto {
+
+    private Integer id;
     
     private CommandeFournisseurDto commandeFournisseurDto;
 

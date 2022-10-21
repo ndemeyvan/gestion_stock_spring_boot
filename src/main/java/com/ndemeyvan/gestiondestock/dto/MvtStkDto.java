@@ -13,6 +13,8 @@ import lombok.Data;
 @Data
 public class MvtStkDto {
 
+    private Integer id;
+
     private ArticleDto articleDto;
 
     private Instant dateMvnt;

@@ -15,7 +15,6 @@ import javax.persistence.Table;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Builder
 @EqualsAndHashCode(callSuper = true)
 @Table(name = "lignecommandeclient")
 public class LigneCommandeClient extends AbstractEntity {

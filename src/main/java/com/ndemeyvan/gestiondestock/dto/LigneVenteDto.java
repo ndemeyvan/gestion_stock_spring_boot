@@ -8,6 +8,8 @@ import lombok.Data;
 @Builder
 @Data
 public class LigneVenteDto {
+
+    private Integer id;
     
     private  VentesDto ventesDto;
 

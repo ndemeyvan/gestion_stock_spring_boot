@@ -16,7 +16,6 @@ import java.util.List;
 @Entity
 @EqualsAndHashCode(callSuper = true)
 @Table(name = "client")
-@Builder
 public class Client extends AbstractEntity {
 
     @Column(name = "nom")
@@ -39,5 +38,6 @@ public class Client extends AbstractEntity {
 
     @OneToMany(mappedBy = "client")
     private List<CommandeClient> commandeClients;
+
 
 }

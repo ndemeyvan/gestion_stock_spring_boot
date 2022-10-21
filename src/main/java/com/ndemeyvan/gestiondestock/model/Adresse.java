@@ -18,7 +18,6 @@ import javax.persistence.Table;
 @NoArgsConstructor
 @EqualsAndHashCode
 @Embeddable
-@Builder
 @Table(name = "adresse")
 public class Adresse implements Serializable {
 

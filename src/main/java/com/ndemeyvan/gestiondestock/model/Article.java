@@ -10,7 +10,6 @@ import java.math.BigDecimal;
 @AllArgsConstructor
 @EqualsAndHashCode(callSuper = true)
 @Entity
-@Builder
 @Table(name = "article")
 public class Article extends AbstractEntity{
 

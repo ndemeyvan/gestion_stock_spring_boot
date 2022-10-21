@@ -20,7 +20,6 @@ import javax.persistence.Table;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Builder
 @EqualsAndHashCode(callSuper = true)
 @Table(name = "mouvementstock")
 public class MvtStk  extends AbstractEntity{

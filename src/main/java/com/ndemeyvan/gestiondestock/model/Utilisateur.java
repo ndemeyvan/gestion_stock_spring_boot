@@ -18,7 +18,6 @@ import javax.persistence.Table;
 @AllArgsConstructor
 @Entity
 @EqualsAndHashCode(callSuper = true) //Appele la fonction super sur le contructeur
-@Builder
 @Table(name = "utilisateur")
 public class Utilisateur  extends AbstractEntity{
 

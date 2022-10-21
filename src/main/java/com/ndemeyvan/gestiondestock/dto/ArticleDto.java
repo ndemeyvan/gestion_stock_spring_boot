@@ -35,10 +35,9 @@ public class ArticleDto {
      * @param article
      * @return
      */
-    public ArticleDto fromEntity(Article article) {
+    public static ArticleDto fromEntity(Article article) {
         if (article == null) {
             return null;
-            // Throw Exeption
         }
         return ArticleDto.builder()
                 .codeArticle(article.getCodeArticle())
@@ -55,10 +54,9 @@ public class ArticleDto {
      * @param articleDto
      * @return
      */
-    public Article toEntity(ArticleDto articleDto) {
+    public static Article toEntity(ArticleDto articleDto) {
         if (articleDto == null) {
             return null;
-            // Throw Exeption
         }
         Article article = new Article();
         article.setCodeArticle(articleDto.getCodeArticle());

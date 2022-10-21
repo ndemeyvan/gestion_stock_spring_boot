@@ -24,13 +24,12 @@ public class LigneCommandeClientDto {
      * @param ligneCommandeClient
      * @return
      */
-    public LigneCommandeClientDto fromEntity(LigneCommandeClient ligneCommandeClient) {
+    public static LigneCommandeClientDto fromEntity(LigneCommandeClient ligneCommandeClient) {
         if (ligneCommandeClient == null) {
             return null;
         }
         return LigneCommandeClientDto.builder()
                 .id(ligneCommandeClient.getId())
-
                 .build();
     }
 
@@ -40,7 +39,7 @@ public class LigneCommandeClientDto {
      * @param ligneCommandeClientDto
      * @return
      */
-    public LigneCommandeClient toEntity(LigneCommandeClientDto ligneCommandeClientDto) {
+    public static LigneCommandeClient toEntity(LigneCommandeClientDto ligneCommandeClientDto) {
         if (ligneCommandeClientDto == null) {
             return null;
         }

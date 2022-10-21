@@ -36,7 +36,7 @@ public class ClientDto {
      * @param client
      * @return
      */
-    public ClientDto fromEntity(Client client) {
+    public static ClientDto fromEntity(Client client) {
         if (client == null) {
             return null;
             // Throw Exeption
@@ -57,7 +57,7 @@ public class ClientDto {
      * @param clientDto
      * @return
      */
-    public Client toEntity(ClientDto clientDto) {
+    public static Client toEntity(ClientDto clientDto) {
         if (clientDto == null) {
             return null;
             // Throw Exeption

@@ -38,7 +38,7 @@ public class FournisseurDto {
      * @param fournisseur
      * @return
      */
-    public FournisseurDto fromEntity(Fournisseur fournisseur) {
+    public static FournisseurDto fromEntity(Fournisseur fournisseur) {
         if (fournisseur == null) {
             return null;
         }
@@ -58,7 +58,7 @@ public class FournisseurDto {
      * @param fournisseurDto
      * @return
      */
-    public Fournisseur toEntity(FournisseurDto fournisseurDto) {
+    public static Fournisseur toEntity(FournisseurDto fournisseurDto) {
         if (fournisseurDto == null) {
             return null;
         }
